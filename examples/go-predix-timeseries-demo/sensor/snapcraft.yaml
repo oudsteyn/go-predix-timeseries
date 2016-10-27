@@ -1,0 +1,14 @@
+name: predix-ts-sample
+version: "1.0"
+summary: "This is Predix Time-Series Sample Application"
+description: "This is Predix Time-Series Sample Applilcation"
+confinement: strict
+
+apps:
+  predix-ts-hello:
+    command: sensor
+
+parts:
+  godd:
+    plugin: go
+    source: .
