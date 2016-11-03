@@ -12,6 +12,6 @@ apps:
     command: sensor
 
 parts:
-  godd:
+  predix-sensor-demo:
     plugin: go
     source: .
