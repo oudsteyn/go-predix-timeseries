@@ -8,7 +8,7 @@ grade: stable
 confinement: strict
 
 apps:
-  predix-ts-hello:
+  predix-ts-sample:
     command: sensor
 
 parts:
