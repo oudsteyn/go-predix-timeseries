@@ -10,6 +10,7 @@ confinement: strict
 apps:
   predix-ts-sample:
     command: sensor
+    plugs: [network]
 
 parts:
   predix-sensor-demo:
