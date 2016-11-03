@@ -1,14 +1,18 @@
 name: predix-ts-sample
 version: "1.0"
 summary: "This is Predix Time-Series Sample Application"
-description: "This is Predix Time-Series Sample Applilcation"
+description: |
+  A Predix Time-Series Sample Applilcation using the golang
+  Predix bindings.
+grade: stable
 confinement: strict
 
 apps:
-  predix-ts-hello:
+  predix-ts-sample:
     command: sensor
+    plugs: [network]
 
 parts:
-  godd:
-    plugin: go
+  predix-sensor-demo:
     source: .
+    plugin: go
