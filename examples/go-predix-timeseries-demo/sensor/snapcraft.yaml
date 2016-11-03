@@ -1,7 +1,9 @@
 name: predix-ts-sample
 version: "1.0"
 summary: "This is Predix Time-Series Sample Application"
-description: "This is Predix Time-Series Sample Applilcation"
+description: |
+  A Predix Time-Series Sample Applilcation using the golang
+  Predix bindings.
 confinement: strict
 
 apps:
