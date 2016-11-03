@@ -4,6 +4,7 @@ summary: "This is Predix Time-Series Sample Application"
 description: |
   A Predix Time-Series Sample Applilcation using the golang
   Predix bindings.
+grade: stable
 confinement: strict
 
 apps:
