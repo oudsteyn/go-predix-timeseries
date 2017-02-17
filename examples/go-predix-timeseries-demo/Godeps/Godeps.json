@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/Altoros/go-predix-timeseries/examples/go-predix-timeseries-demo",
+	"ImportPath": "github.com/oudsteyn/go-predix-timeseries/examples/go-predix-timeseries-demo",
 	"GoVersion": "go1.6.1",
 	"Packages": [
 		"./..."

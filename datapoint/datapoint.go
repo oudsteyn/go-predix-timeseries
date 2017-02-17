@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Altoros/go-predix-timeseries/dataquality"
-	"github.com/Altoros/go-predix-timeseries/measurement"
+	"github.com/oudsteyn/go-predix-timeseries/dataquality"
+	"github.com/oudsteyn/go-predix-timeseries/measurement"
 )
 
 type Datapoint struct {

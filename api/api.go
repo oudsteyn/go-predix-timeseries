@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Altoros/go-predix-timeseries/ingest"
-	"github.com/Altoros/go-predix-timeseries/query"
+	"github.com/oudsteyn/go-predix-timeseries/ingest"
+	"github.com/oudsteyn/go-predix-timeseries/query"
 	"github.com/gorilla/websocket"
 	"gopkg.in/h2non/gentleman.v0"
 )

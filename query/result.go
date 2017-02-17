@@ -1,7 +1,7 @@
 package query
 
 import (
-	"github.com/Altoros/go-predix-timeseries/datapoint"
+	"github.com/oudsteyn/go-predix-timeseries/datapoint"
 )
 
 type Group map[string]interface{}

@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/Altoros/go-predix-timeseries/datapoint"
-	"github.com/Altoros/go-predix-timeseries/dataquality"
-	"github.com/Altoros/go-predix-timeseries/measurement"
+	"github.com/oudsteyn/go-predix-timeseries/datapoint"
+	"github.com/oudsteyn/go-predix-timeseries/dataquality"
+	"github.com/oudsteyn/go-predix-timeseries/measurement"
 )
 
 var IncorrectName = errors.New("Tag name can contain only alphanumeric characters, periods (.), slashes (/), dashes (-), and underscores (_).")

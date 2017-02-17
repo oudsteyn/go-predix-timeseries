@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/Altoros/go-predix-timeseries/api"
-	"github.com/Altoros/go-predix-timeseries/dataquality"
-	"github.com/Altoros/go-predix-timeseries/measurement"
+	"github.com/oudsteyn/go-predix-timeseries/api"
+	"github.com/oudsteyn/go-predix-timeseries/dataquality"
+	"github.com/oudsteyn/go-predix-timeseries/measurement"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 )

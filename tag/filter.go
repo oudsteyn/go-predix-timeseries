@@ -1,6 +1,6 @@
 package tag
 
-import "github.com/Altoros/go-predix-timeseries/filter"
+import "github.com/oudsteyn/go-predix-timeseries/filter"
 
 type attr struct {
 	name   string

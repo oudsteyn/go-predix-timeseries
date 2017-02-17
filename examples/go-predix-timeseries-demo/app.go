@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/Altoros/go-predix-timeseries/api"
-	"github.com/Altoros/go-predix-timeseries/query"
+	"github.com/oudsteyn/go-predix-timeseries/api"
+	"github.com/oudsteyn/go-predix-timeseries/query"
 	"github.com/cloudfoundry-community/go-cfenv"
 	"github.com/gin-gonic/gin"
 	"golang.org/x/oauth2"

@@ -3,7 +3,7 @@ package dataquality
 import (
 	"strconv"
 
-	"github.com/Altoros/go-predix-timeseries/filter"
+	"github.com/oudsteyn/go-predix-timeseries/filter"
 )
 
 // Creates a filter to limit returned values by data quality
